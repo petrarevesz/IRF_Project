@@ -15,7 +15,8 @@ namespace XB6YOO_Project
         public Form1()
         {
             InitializeComponent();
-            lblIntro.Text = "Greenpeace System Platform";
+            btnGo.Text = Resource.Go;
+
         }
 
         private void BtnLoad_Click(object sender, EventArgs e)

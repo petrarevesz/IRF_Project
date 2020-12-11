@@ -16,6 +16,7 @@ namespace XB6YOO_Project
         public Company()
         {
             InitializeComponent();
+            btnLoad.Text = Resource.Load;
         }
 
         private void LoadData()
