@@ -25,5 +25,13 @@ namespace XB6YOO_Project
             panel1.Controls.Add(p);
             p.Dock = DockStyle.Fill;
         }
+
+        private void BtnCompany_Click(object sender, EventArgs e)
+        {
+            panel1.Controls.Clear();
+            UserControl c = new Company();
+            panel1.Controls.Add(c);
+            c.Dock = DockStyle.Fill;
+        }
     }
 }
