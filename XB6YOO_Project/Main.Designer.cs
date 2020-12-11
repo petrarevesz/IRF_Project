@@ -28,12 +28,104 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.btnPetition = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.lblTime = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.SuspendLayout();
+            // 
+            // btnPetition
+            // 
+            this.btnPetition.Location = new System.Drawing.Point(27, 98);
+            this.btnPetition.Name = "btnPetition";
+            this.btnPetition.Size = new System.Drawing.Size(89, 40);
+            this.btnPetition.TabIndex = 0;
+            this.btnPetition.Text = "button1";
+            this.btnPetition.UseVisualStyleBackColor = true;
+            this.btnPetition.Click += new System.EventHandler(this.BtnPetition_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(27, 159);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(89, 40);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(27, 218);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(89, 40);
+            this.button3.TabIndex = 2;
+            this.button3.Text = "button3";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(27, 274);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(89, 40);
+            this.button4.TabIndex = 3;
+            this.button4.Text = "button4";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(80, 25);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "label1";
+            // 
+            // lblTime
+            // 
+            this.lblTime.AutoSize = true;
+            this.lblTime.Location = new System.Drawing.Point(691, 25);
+            this.lblTime.Name = "lblTime";
+            this.lblTime.Size = new System.Drawing.Size(35, 13);
+            this.lblTime.TabIndex = 5;
+            this.lblTime.Text = "label2";
+            // 
+            // panel1
+            // 
+            this.panel1.Location = new System.Drawing.Point(122, 60);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(666, 378);
+            this.panel1.TabIndex = 6;
+            // 
+            // Main
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.lblTime);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnPetition);
+            this.Name = "Main";
             this.Text = "Main";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnPetition;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblTime;
+        private System.Windows.Forms.Panel panel1;
     }
 }

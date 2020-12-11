@@ -15,6 +15,15 @@ namespace XB6YOO_Project
         public Main()
         {
             InitializeComponent();
+            lblTime.Text = DateTime.Now.ToString("MM/dd/yyyy HH:mm");
+        }
+
+        private void BtnPetition_Click(object sender, EventArgs e)
+        {
+            panel1.Controls.Clear();
+            UserControl p = new Petition();
+            panel1.Controls.Add(p);
+            p.Dock = DockStyle.Fill;
         }
     }
 }
