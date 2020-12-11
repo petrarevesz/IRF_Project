@@ -61,6 +61,15 @@ namespace XB6YOO_Project {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Add.
+        /// </summary>
+        internal static string Add {
+            get {
+                return ResourceManager.GetString("Add", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Go.
         /// </summary>
         internal static string Go {
@@ -75,6 +84,42 @@ namespace XB6YOO_Project {
         internal static string Load {
             get {
                 return ResourceManager.GetString("Load", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Petitions.
+        /// </summary>
+        internal static string Petitions {
+            get {
+                return ResourceManager.GetString("Petitions", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Supporters.
+        /// </summary>
+        internal static string Supporters {
+            get {
+                return ResourceManager.GetString("Supporters", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tracker.
+        /// </summary>
+        internal static string Tracker {
+            get {
+                return ResourceManager.GetString("Tracker", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Volunteers.
+        /// </summary>
+        internal static string Volunteers {
+            get {
+                return ResourceManager.GetString("Volunteers", resourceCulture);
             }
         }
     }

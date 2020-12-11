@@ -16,6 +16,7 @@ namespace XB6YOO_Project
         {
             InitializeComponent();
             TableLoad();
+            btnAdd.Text = Resource.Add;
         }
         DataTable table = new DataTable();
 
@@ -24,6 +25,7 @@ namespace XB6YOO_Project
             table.Columns.Add("Project", typeof(string));
             table.Columns.Add("Start", typeof(DateTime));
             table.Columns.Add("Finish", typeof(DateTime));
+            table.Columns.Add("Comment");
             dataGridView1.DataSource = table;
         }
 

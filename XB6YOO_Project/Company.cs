@@ -43,29 +43,29 @@ namespace XB6YOO_Project
                     if (s1 != "")
                     {
                         dataGridView1.Rows.Add(s1.Split(',', ';'));
+                     
                     }
                 }
+                chart1.Series["Series1"].Points.AddXY("CleanEnergy", Convert.ToDouble(dataGridView1.Rows[1].Cells[0].Value));
+                chart1.Series["Series1"].Points.AddXY("NaturalGas", Convert.ToDouble(dataGridView1.Rows[1].Cells[1].Value));
+                chart1.Series["Series1"].Points.AddXY("Coal", Convert.ToDouble(dataGridView1.Rows[1].Cells[2].Value));
+                chart1.Series["Series1"].Points.AddXY("Nuclear", Convert.ToDouble(dataGridView1.Rows[1].Cells[3].Value));
+
+
 
             }
 
-            catch (Exception)
+            catch (Exception ex)
             {
-
-                MessageBox.Show("You did not open any file so you will not get any output \n Thank you!");
+                MessageBox.Show(ex.Message);
             }
+
+
         }
 
         private void BtnLoad_Click(object sender, EventArgs e)
         {
             LoadData();
-        }
-
-        private void Button1_Click(object sender, EventArgs e)
-        {
-            chart1.Series["Series1"].Points.AddXY("CleanEnergy", Convert.ToDouble(dataGridView1.Rows[1].Cells[0].Value));
-            chart1.Series["Series1"].Points.AddXY("NaturalGas", Convert.ToDouble(dataGridView1.Rows[1].Cells[1].Value));
-            chart1.Series["Series1"].Points.AddXY("Coal", Convert.ToDouble(dataGridView1.Rows[1].Cells[2].Value));
-            chart1.Series["Series1"].Points.AddXY("Nuclear", Convert.ToDouble(dataGridView1.Rows[1].Cells[3].Value));
         }
 
 

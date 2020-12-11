@@ -16,6 +16,10 @@ namespace XB6YOO_Project
         {
             InitializeComponent();
             lblTime.Text = DateTime.Now.ToString("MM/dd/yyyy HH:mm");
+            btnPetition.Text = Resource.Petitions;
+            btnCompany.Text = Resource.Tracker;
+            btnSupport.Text = Resource.Supporters;
+            btnVolunter.Text = Resource.Volunteers;
         }
 
         private void BtnPetition_Click(object sender, EventArgs e)
@@ -32,6 +36,14 @@ namespace XB6YOO_Project
             UserControl c = new Company();
             panel1.Controls.Add(c);
             c.Dock = DockStyle.Fill;
+        }
+
+        private void BtnVolunter_Click(object sender, EventArgs e)
+        {
+            panel1.Controls.Clear();
+            UserControl v = new Volunteers();
+            panel1.Controls.Add(v);
+            v.Dock = DockStyle.Fill;
         }
     }
 }

@@ -21,21 +21,30 @@ namespace XB6YOO_Project
 
         private void BtnLoad_Click(object sender, EventArgs e)
         {
+            //legenerálom a propertibe hash cuccot
+            var password_hash = Properties.Settings.Default.Password.GetHashCode();
+            var password_given = txtBoxPassword.Text.GetHashCode();
+
             if (txtBoxPassword.Text == "")
             {
                 MessageBox.Show("Please enter the password!");
                 return;
             }
-
-            if (txtBoxPassword.Text != "Password123")
+            else if (password_hash == password_given)
             {
-                MessageBox.Show("Password incorrect, please try it again!");
+                Main m = new Main();
+                DialogResult result = m.ShowDialog();
+                txtBoxPassword.Clear();
+            }
+            else
+            {
+                MessageBox.Show("Please enter the correct password!");
                 return;
             }
 
-            Main m = new Main();
-            DialogResult result = m.ShowDialog();
-            txtBoxPassword.Clear();
+           
+
+           
         }
     }
 }
