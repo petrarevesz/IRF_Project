@@ -22,6 +22,12 @@ namespace XB6YOO_Project
             
             Population = GetPopulation("Volunteers.csv");
             dataGridView1.DataSource = Population;
+            lblp1.Text = Resource.Project1;
+            lblp2.Text = Resource.Project2;
+            lblp3.Text = Resource.Project3;
+            btnAdd1.Text = Resource.Add;
+            btnAdd2.Text = Resource.Add;
+            btnAdd3.Text = Resource.Add;
         }
 
         public List<Person> GetPopulation(string csvpath)
@@ -45,6 +51,78 @@ namespace XB6YOO_Project
 
             return Population;
             
+        }
+
+        private void BtnAdd1_Click(object sender, EventArgs e)
+        {
+            GetButtons1();
+        }
+
+        private void GetButtons1()
+        {
+            decimal n = nUpDown1.Value;
+            int count = Convert.ToInt32(n);
+            int x = 0;
+            int y = 1;
+            for (int i = 0; i < count; i++)
+            {
+                Button btn = new Button();
+                btn.Text = y.ToString();
+                btn.Name = y.ToString();
+                btn.Size = new Size(30, 30);
+                btn.Location = new Point(50 * (x + 4), 260);
+                x++;
+                y++;
+                Controls.Add(btn);
+            }
+        }
+
+        private void BtnAdd2_Click(object sender, EventArgs e)
+        {
+            GetButtons2();
+        }
+
+        private void GetButtons2()
+        {
+            decimal n = nUpDown2.Value;
+            int count = Convert.ToInt32(n);
+            int x = 0;
+            int y = 1;
+            for (int i = 0; i < count; i++)
+            {
+                Button btn = new Button();
+                btn.Text = y.ToString();
+                btn.Name = y.ToString();
+                btn.Size = new Size(30, 30);
+                btn.Location = new Point(50 * (x + 4), 290);
+                x++;
+                y++;
+                Controls.Add(btn);
+            }
+        }
+
+        private void BtnAdd3_Click(object sender, EventArgs e)
+        {
+            GetButtons3();
+        }
+
+        private void GetButtons3()
+        {
+            decimal n = nUpDown3.Value;
+            int count = Convert.ToInt32(n);
+            int x = 0;
+            int y = 1;
+            for (int i = 0; i < count; i++)
+            {
+                Button btn = new Button();
+                btn.Text = y.ToString();
+                btn.Name = y.ToString();
+                btn.Size = new Size(30, 30);
+                btn.Location = new Point(50 * (x + 4), 320);
+                x++;
+                y++;
+                Controls.Add(btn);
+            }
         }
     }
 }

@@ -97,6 +97,33 @@ namespace XB6YOO_Project {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Project1.
+        /// </summary>
+        internal static string Project1 {
+            get {
+                return ResourceManager.GetString("Project1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Project2.
+        /// </summary>
+        internal static string Project2 {
+            get {
+                return ResourceManager.GetString("Project2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Project3.
+        /// </summary>
+        internal static string Project3 {
+            get {
+                return ResourceManager.GetString("Project3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Supporters.
         /// </summary>
         internal static string Supporters {

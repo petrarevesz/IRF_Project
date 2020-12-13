@@ -129,6 +129,15 @@
   <data name="Petitions" xml:space="preserve">
     <value>Petitions</value>
   </data>
+  <data name="Project1" xml:space="preserve">
+    <value>Project1</value>
+  </data>
+  <data name="Project2" xml:space="preserve">
+    <value>Project2</value>
+  </data>
+  <data name="Project3" xml:space="preserve">
+    <value>Project3</value>
+  </data>
   <data name="Supporters" xml:space="preserve">
     <value>Supporters</value>
   </data>
