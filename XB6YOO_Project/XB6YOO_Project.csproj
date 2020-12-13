@@ -55,6 +55,9 @@
     </Compile>
     <Compile Include="Entities\Gender.cs" />
     <Compile Include="Entities\Person.cs" />
+    <Compile Include="Entities\ProjectMembers.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
