@@ -89,7 +89,7 @@ namespace XB6YOO_Project
             int y = 1;
             for (int i = 0; i < count; i++)
             {
-                Button btn = new Button();
+                ProjectMembers btn = new ProjectMembers();
                 btn.Text = y.ToString();
                 btn.Name = y.ToString();
                 btn.Size = new Size(30, 30);
@@ -113,7 +113,7 @@ namespace XB6YOO_Project
             int y = 1;
             for (int i = 0; i < count; i++)
             {
-                Button btn = new Button();
+                ProjectMembers btn = new ProjectMembers();
                 btn.Text = y.ToString();
                 btn.Name = y.ToString();
                 btn.Size = new Size(30, 30);

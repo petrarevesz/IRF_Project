@@ -68,6 +68,5 @@ namespace XB6YOO_Project
             LoadData();
         }
 
-
     }
 }
