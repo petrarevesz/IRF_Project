@@ -11,5 +11,6 @@ namespace XB6YOO_Project.Entities
         public string Surname { get; set; }
         public string Name { get; set; }
         public Gender Gender { get; set; }
+
     }
 }

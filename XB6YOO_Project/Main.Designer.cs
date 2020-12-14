@@ -31,7 +31,6 @@
             this.btnPetition = new System.Windows.Forms.Button();
             this.btnCompany = new System.Windows.Forms.Button();
             this.btnVolunter = new System.Windows.Forms.Button();
-            this.btnSupport = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.lblTime = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -67,15 +66,6 @@
             this.btnVolunter.UseVisualStyleBackColor = true;
             this.btnVolunter.Click += new System.EventHandler(this.BtnVolunter_Click);
             // 
-            // btnSupport
-            // 
-            this.btnSupport.Location = new System.Drawing.Point(27, 274);
-            this.btnSupport.Name = "btnSupport";
-            this.btnSupport.Size = new System.Drawing.Size(89, 40);
-            this.btnSupport.TabIndex = 3;
-            this.btnSupport.Text = "button4";
-            this.btnSupport.UseVisualStyleBackColor = true;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -110,7 +100,6 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.lblTime);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.btnSupport);
             this.Controls.Add(this.btnVolunter);
             this.Controls.Add(this.btnCompany);
             this.Controls.Add(this.btnPetition);
@@ -126,7 +115,6 @@
         private System.Windows.Forms.Button btnPetition;
         private System.Windows.Forms.Button btnCompany;
         private System.Windows.Forms.Button btnVolunter;
-        private System.Windows.Forms.Button btnSupport;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblTime;
         private System.Windows.Forms.Panel panel1;

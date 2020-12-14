@@ -18,7 +18,6 @@ namespace XB6YOO_Project
             lblTime.Text = DateTime.Now.ToString("MM/dd/yyyy HH:mm");
             btnPetition.Text = Resource.Petitions;
             btnCompany.Text = Resource.Tracker;
-            btnSupport.Text = Resource.Supporters;
             btnVolunter.Text = Resource.Volunteers;
         }
 
