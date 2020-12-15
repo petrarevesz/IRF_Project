@@ -70,6 +70,15 @@ namespace XB6YOO_Project {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Distribution of Company&apos;s Electricity Mix (%) in 2019.
+        /// </summary>
+        internal static string Data {
+            get {
+                return ResourceManager.GetString("Data", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Go.
         /// </summary>
         internal static string Go {

@@ -17,6 +17,7 @@ namespace XB6YOO_Project
         {
             InitializeComponent();
             btnLoad.Text = Resource.Load;
+            
         }
 
         private void LoadData()
@@ -51,7 +52,7 @@ namespace XB6YOO_Project
                 chart1.Series["Series1"].Points.AddXY("Coal", Convert.ToDouble(dataGridView1.Rows[1].Cells[2].Value));
                 chart1.Series["Series1"].Points.AddXY("Nuclear", Convert.ToDouble(dataGridView1.Rows[1].Cells[3].Value));
 
-
+                lblData.Text = Resource.Data;
 
             }
 

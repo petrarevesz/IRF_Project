@@ -69,7 +69,7 @@ namespace XB6YOO_Project
                 ProjectMembers btn = new ProjectMembers();
                 btn.Text = y.ToString();
                 btn.Name = y.ToString();
-                btn.Location = new Point(50 * (x + 4), 260);
+                btn.Location = new Point(50 + (x + 4), 260);
                 x++;
                 y++;
                 Controls.Add(btn);

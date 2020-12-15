@@ -42,9 +42,9 @@
             this.lblIntro.Font = new System.Drawing.Font("Lucida Calligraphy", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblIntro.Location = new System.Drawing.Point(248, 35);
             this.lblIntro.Name = "lblIntro";
-            this.lblIntro.Size = new System.Drawing.Size(254, 62);
+            this.lblIntro.Size = new System.Drawing.Size(266, 62);
             this.lblIntro.TabIndex = 0;
-            this.lblIntro.Text = "Welcome";
+            this.lblIntro.Text = "Welcome!";
             // 
             // txtBoxPassword
             // 
@@ -56,9 +56,9 @@
             // 
             // btnGo
             // 
-            this.btnGo.Location = new System.Drawing.Point(387, 152);
+            this.btnGo.Location = new System.Drawing.Point(387, 158);
             this.btnGo.Name = "btnGo";
-            this.btnGo.Size = new System.Drawing.Size(77, 33);
+            this.btnGo.Size = new System.Drawing.Size(77, 21);
             this.btnGo.TabIndex = 2;
             this.btnGo.Text = "button1";
             this.btnGo.UseVisualStyleBackColor = true;
@@ -79,9 +79,9 @@
             this.lblPassword.Font = new System.Drawing.Font("Lucida Calligraphy", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPassword.Location = new System.Drawing.Point(241, 125);
             this.lblPassword.Name = "lblPassword";
-            this.lblPassword.Size = new System.Drawing.Size(236, 24);
+            this.lblPassword.Size = new System.Drawing.Size(241, 24);
             this.lblPassword.TabIndex = 4;
-            this.lblPassword.Text = "Please enter password";
+            this.lblPassword.Text = "Please enter password:";
             // 
             // Form1
             // 

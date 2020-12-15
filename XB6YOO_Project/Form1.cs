@@ -21,7 +21,6 @@ namespace XB6YOO_Project
 
         private void BtnLoad_Click(object sender, EventArgs e)
         {
-            //legenerálom a propertibe hash cuccot
             var password_hash = Properties.Settings.Default.Password.GetHashCode();
             var password_given = txtBoxPassword.Text.GetHashCode();
 
@@ -35,6 +34,7 @@ namespace XB6YOO_Project
                 Main m = new Main();
                 DialogResult result = m.ShowDialog();
                 txtBoxPassword.Clear();
+                this.Close();
             }
             else
             {
