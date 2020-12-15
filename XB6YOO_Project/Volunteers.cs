@@ -69,7 +69,7 @@ namespace XB6YOO_Project
                 ProjectMembers btn = new ProjectMembers();
                 btn.Text = y.ToString();
                 btn.Name = y.ToString();
-                btn.Location = new Point(50 + (x + 4), 260);
+                btn.Location = new Point(btn.Width * x + 200, 260);
                 x++;
                 y++;
                 Controls.Add(btn);
@@ -93,7 +93,7 @@ namespace XB6YOO_Project
                 btn.Text = y.ToString();
                 btn.Name = y.ToString();
                 btn.Size = new Size(30, 30);
-                btn.Location = new Point(50 * (x + 4), 290);
+                btn.Location = new Point(btn.Width * x + 200, 290);
                 x++;
                 y++;
                 Controls.Add(btn);
@@ -117,7 +117,7 @@ namespace XB6YOO_Project
                 btn.Text = y.ToString();
                 btn.Name = y.ToString();
                 btn.Size = new Size(30, 30);
-                btn.Location = new Point(50 * (x + 4), 320);
+                btn.Location = new Point(btn.Width * x + 200, 320);
                 x++;
                 y++;
                 Controls.Add(btn);
