@@ -31,10 +31,11 @@ namespace XB6YOO_Project
             }
             else if (password_hash == password_given)
             {
+                
                 Main m = new Main();
-                DialogResult result = m.ShowDialog();
+                m.Show();  
                 txtBoxPassword.Clear();
-                this.Close();
+                
             }
             else
             {

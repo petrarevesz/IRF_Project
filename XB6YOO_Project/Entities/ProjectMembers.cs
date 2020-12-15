@@ -21,10 +21,8 @@ namespace XB6YOO_Project.Entities
 
                 if (_value == true)
                 { BackColor = Color.Red; }
-                else
-                {
-                    BackColor = Color.White;
-                }
+                else { BackColor = Color.White; }
+
             }
         }
 
@@ -35,16 +33,13 @@ namespace XB6YOO_Project.Entities
             BackColor = Color.White;
             MouseDown += ProjectMembers_MouseDown;
         }
+
         private void ProjectMembers_MouseDown(object sender, MouseEventArgs e)
         {
             if (Value == true)
-            {
-                Value = false;
-            }
+            {   Value = false;  }
             else
-            {
-                Value = true;
-            }
+            { Value = true;   }
         }
     }
 }

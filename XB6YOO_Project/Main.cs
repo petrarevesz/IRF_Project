@@ -15,6 +15,7 @@ namespace XB6YOO_Project
         public Main()
         {
             InitializeComponent();
+            
             lblTime.Text = DateTime.Now.ToString("MM/dd/yyyy HH:mm");
             btnPetition.Text = Resource.Petitions;
             btnCompany.Text = Resource.Tracker;

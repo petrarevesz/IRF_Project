@@ -89,14 +89,14 @@
             // 
             this.panel1.Location = new System.Drawing.Point(122, 60);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(666, 378);
+            this.panel1.Size = new System.Drawing.Size(696, 401);
             this.panel1.TabIndex = 6;
             // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(844, 473);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.lblTime);
             this.Controls.Add(this.label1);

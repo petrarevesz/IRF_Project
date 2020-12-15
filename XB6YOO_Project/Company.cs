@@ -16,8 +16,12 @@ namespace XB6YOO_Project
         public Company()
         {
             InitializeComponent();
-            btnLoad.Text = Resource.Load;
-            
+            btnLoad.Text = Resource.Load; 
+        }
+
+        private void BtnLoad_Click(object sender, EventArgs e)
+        {
+            LoadData();
         }
 
         private void LoadData()
@@ -60,14 +64,6 @@ namespace XB6YOO_Project
             {
                 MessageBox.Show(ex.Message);
             }
-
-
         }
-
-        private void BtnLoad_Click(object sender, EventArgs e)
-        {
-            LoadData();
-        }
-
     }
 }
